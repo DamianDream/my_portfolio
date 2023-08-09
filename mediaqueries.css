@@ -25,6 +25,7 @@
 
     #profile,
     .section-container {
+        margin-top: 2rem;
         display: block;
     }
 
@@ -64,6 +65,10 @@
         margin-bottom: 0;
     }
 
+    #profile .section__text {
+        padding-top: 6rem;
+    }
+
     article {
         font-size: 1rem;
     }
@@ -73,10 +78,20 @@
         margin-bottom: 2rem;
     }
 
+    #about .section-container {
+        padding-top: 4rem;
+    }
+
     .about-containers,
-    .contact-info-upper-container,
     .btn-container {
         flex-wrap: wrap;
+    }
+
+    .contact-info-upper-container {
+        display: flex;
+        flex-direction: column;
+        align-items: fcenter;
+        gap: 1rem;
     }
 
     .contact-info-container {
@@ -106,6 +121,10 @@
         width: auto;
         height: 46vw;
         justify-content: center;
+    }
+
+    .about-details-container {
+        padding-top: 5rem;
     }
 
     .section__text__p2 {
