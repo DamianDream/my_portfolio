@@ -61,12 +61,12 @@
     }
 
     #profile {
-        height: 83vh;
+        height: 78vh;
         margin-bottom: 0;
     }
 
     #profile .section__text {
-        padding-top: 4rem;
+        padding-top: 5rem;
     }
 
     article {
@@ -118,8 +118,9 @@
     }
 
     .section__pic-container {
+        padding-top: 1rem;
         width: auto;
-        height: 46vw;
+        height: 40vw;
         justify-content: center;
     }
 
