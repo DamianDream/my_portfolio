@@ -410,3 +410,7 @@ footer {
 footer p {
     text-align: center;
 }
+
+picture img {
+    border-radius: 50%;
+}
