@@ -86,7 +86,6 @@ a:hover {
     justify-content: space-between;
     height: 24px;
     width: 30px;
-    cursor: pointer;
 }
 
 .hamburger-icon span {
@@ -157,7 +156,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 90vh;
 }
 
 img {
@@ -266,7 +265,7 @@ img {
 }
 
 .about-details-container {
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
 }
 
@@ -403,7 +402,7 @@ article .icon {
 }
 
 footer {
-    height: 26vh;
+    height: 10vh;
     margin: 0 1rem;
 }
 
@@ -413,4 +412,17 @@ footer p {
 
 picture img {
     border-radius: 50%;
+}
+
+#about > * {
+    margin-top: 2rem;
+    /* border: 1px solid red; */
+}
+
+.about-details-container {
+    margin: 0 auto;
+}
+
+.text-container p {
+    max-width: 85ch;
 }
